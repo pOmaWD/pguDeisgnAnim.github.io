@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Портфолио — Company</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="logo" href="index.html">logo</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню"><span></span></button>
+        <nav class="nav" id="nav" aria-label="Основная навигация">
+          <ul class="nav__list">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="portfolio.html" aria-current="page">Портфолио</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-head">
+        <div class="container">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol>
+              <li><a href="index.html">Главная</a></li>
+              <li>Портфолио</li>
+            </ol>
+          </nav>
+          <h1>Портфолио</h1>
+          <p class="lead">Кое-что из того, чем мы гордимся.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="filter" role="group" aria-label="Фильтр проектов">
+            <button class="filter__btn is-active" type="button" data-filter="all">Все</button>
+            <button class="filter__btn" type="button" data-filter="web">Сайты</button>
+            <button class="filter__btn" type="button" data-filter="brand">Брендинг</button>
+            <button class="filter__btn" type="button" data-filter="app">Приложения</button>
+          </div>
+          <div class="cards" id="projects">
+            <article class="card" data-category="app">
+              <figure class="card__media"><img src="img/placeholder-4x3.svg" alt="Скриншот проекта" width="800" height="600" loading="lazy"></figure>
+              <span class="tag">Приложения</span>
+              <h3>Трекер привычек</h3>
+              <p>Мобильное приложение, которое помогает не бросать начатое.</p>
+            </article>
+            <article class="card" data-category="app">
+              <figure class="card__media"><img src="img/placeholder-4x3.svg" alt="Скриншот проекта" width="800" height="600" loading="lazy"></figure>
+              <span class="tag">Приложения</span>
+              <h3>Запись к врачу онлайн</h3>
+              <p>Удобная запись к врачу без звонков и очередей.</p>
+            </article>
+            <article class="card" data-category="brand">
+              <figure class="card__media"><img src="img/placeholder-4x3.svg" alt="Скриншот проекта" width="800" height="600" loading="lazy"></figure>
+              <span class="tag">Брендинг</span>
+              <h3>Стиль для кофейни</h3>
+              <p>Логотип, цвета и упаковка для небольшой кофейни.</p>
+            </article>
+            <article class="card" data-category="brand">
+              <figure class="card__media"><img src="img/placeholder-4x3.svg" alt="Скриншот проекта" width="800" height="600" loading="lazy"></figure>
+              <span class="tag">Брендинг</span>
+              <h3>Ребрендинг студии йоги</h3>
+              <p>Новый фирменный стиль и обновлённые материалы.</p>
+            </article>
+            <article class="card" data-category="web">
+              <figure class="card__media"><img src="img/placeholder-4x3.svg" alt="Скриншот проекта" width="800" height="600" loading="lazy"></figure>
+              <span class="tag">Сайты</span>
+              <h3>Сайт фитнес-клуба</h3>
+              <p>Расписание, тренеры и онлайн-запись на занятия.</p>
+            </article>
+            <article class="card" data-category="web">
+              <figure class="card__media"><img src="img/placeholder-4x3.svg" alt="Скриншот проекта" width="800" height="600" loading="lazy"></figure>
+              <span class="tag">Сайты</span>
+              <h3>Лендинг мебельной мастерской</h3>
+              <p>Одностраничный сайт с каталогом и формой заказа.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section cta">
+        <div class="container cta__inner">
+          <h2>Ну что, начнём?</h2>
+          <p>Расскажите, что нужно, а мы прикинем сроки и бюджет.</p>
+          <a class="btn btn--primary" href="contacts.html">Написать нам</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container site-footer__grid">
+        <div class="site-footer__about">
+          <a class="logo" href="index.html">logo</a>
+          <p>Делаем сайты, которые не стыдно показать друзьям.</p>
+        </div>
+        <nav aria-label="Навигация в подвале">
+          <h2 class="site-footer__title">Разделы</h2>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2 class="site-footer__title">Контакты</h2>
+          <address>
+            <a href="tel:+70000000000">+7 (000) 000-00-00</a><br>
+            <a href="mailto:hello@example.com">hello@example.com</a>
+          </address>
+        </div>
+        <form class="subscribe" data-validate novalidate>
+          <h2 class="site-footer__title">Подписка</h2>
+          <div class="form__field">
+            <label class="visually-hidden" for="sub-email">Email</label>
+            <input id="sub-email" name="email" type="email" placeholder="email@example.com" required data-error="Введите корректный email">
+            <p class="form__error"></p>
+          </div>
+          <button class="btn btn--primary" type="submit">Подписаться</button>
+          <p class="form__status" role="status"></p>
+        </form>
+      </div>
+      <div class="container">
+        <p class="site-footer__copy"><small>© <span data-year>2026</span> Company. Все права защищены.</small></p>
+      </div>
+    </footer>
+    <button class="to-top" type="button" aria-label="Наверх" hidden>↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>

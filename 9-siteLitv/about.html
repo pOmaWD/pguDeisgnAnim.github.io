@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>О нас — Company</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="logo" href="index.html">logo</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню"><span></span></button>
+        <nav class="nav" id="nav" aria-label="Основная навигация">
+          <ul class="nav__list">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html" aria-current="page">О нас</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-head">
+        <div class="container">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol>
+              <li><a href="index.html">Главная</a></li>
+              <li>О нас</li>
+            </ol>
+          </nav>
+          <h1>О нас</h1>
+          <p class="lead">Небольшая команда, которая любит свою работу.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container split">
+          <div>
+            <h2>Кто мы</h2>
+            <p>Мы команда дизайнеров и разработчиков. Делаем сайты для тех, кому нужен результат, а не просто красивая картинка.</p>
+            <p>Работаем по минимуму.</p>
+          </div>
+          <figure>
+            <img src="img/placeholder-4x3.svg" alt="Команда за работой" width="800" height="600">
+            <figcaption>Наш офис</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="section section--alt">
+        <div class="container">
+          <header class="section__head">
+            <h2>Во что мы верим?</h2>
+            <p>в бога</p>
+          </header>
+          <ul class="cards cards--4">
+            <li class="card">
+              <span class="card__icon" aria-hidden="true">icon</span>
+              <h3>Честность</h3>
+              <p>Говорим как есть, даже если это неудобно.</p>
+            </li>
+            <li class="card">
+              <span class="card__icon" aria-hidden="true">icon</span>
+              <h3>Скорость</h3>
+              <p>Не тянем резину и держим слово.</p>
+            </li>
+            <li class="card">
+              <span class="card__icon" aria-hidden="true">icon</span>
+              <h3>Качество</h3>
+              <p>Лучше сделать меньше, но хорошо.</p>
+            </li>
+            <li class="card">
+              <span class="card__icon" aria-hidden="true">icon</span>
+              <h3>Забота</h3>
+              <p>Помогаем и после сдачи проекта.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container container--narrow">
+          <header class="section__head">
+            <h2>История</h2>
+          </header>
+          <ol class="timeline">
+            <li><time datetime="2018">2018</time><p>Купили комп.</p></li>
+            <li><time datetime="2021">2021</time><p>Продали комп.</p></li>
+            <li><time datetime="2025">2025</time><p>Купили снова.</p></li>
+          </ol>
+        </div>
+      </section>
+      <section class="section section--alt">
+        <div class="container">
+          <header class="section__head">
+            <h2>Команда</h2>
+            <p>Люди, которые всё это делают.</p>
+          </header>
+          <div class="cards cards--4">
+            <article class="card">
+              <figure class="card__media"><img src="img/placeholder-1x1.svg" alt="Фото сотрудника" width="400" height="400" loading="lazy"></figure>
+              <h3>Джон Смит</h3>
+              <p>Дизайнер</p>
+            </article>
+            <article class="card">
+              <figure class="card__media"><img src="img/placeholder-1x1.svg" alt="Фото сотрудника" width="400" height="400" loading="lazy"></figure>
+              <h3>Джон Смит</h3>
+              <p>Разработчик</p>
+            </article>
+            <article class="card">
+              <figure class="card__media"><img src="img/placeholder-1x1.svg" alt="Фото сотрудника" width="400" height="400" loading="lazy"></figure>
+              <h3>Джон Смит</h3>
+              <p>Менеджер проектов</p>
+            </article>
+            <article class="card">
+              <figure class="card__media"><img src="img/placeholder-1x1.svg" alt="Фото сотрудника" width="400" height="400" loading="lazy"></figure>
+              <h3>Джон Смит</h3>
+              <p>Копирайтер</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section cta">
+        <div class="container cta__inner">
+          <h2>Ну что, начнём?</h2>
+          <p>Расскажите, что нужно, а мы прикинем сроки и бюджет.</p>
+          <a class="btn btn--primary" href="contacts.html">Написать нам</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container site-footer__grid">
+        <div class="site-footer__about">
+          <a class="logo" href="index.html">logo</a>
+          <p>Делаем сайты, которые не стыдно показать друзьям.</p>
+        </div>
+        <nav aria-label="Навигация в подвале">
+          <h2 class="site-footer__title">Разделы</h2>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2 class="site-footer__title">Контакты</h2>
+          <address>
+            <a href="tel:+70000000000">+7 (000) 000-00-00</a><br>
+            <a href="mailto:hello@example.com">hello@example.com</a>
+          </address>
+        </div>
+        <form class="subscribe" data-validate novalidate>
+          <h2 class="site-footer__title">Подписка</h2>
+          <div class="form__field">
+            <label class="visually-hidden" for="sub-email">Email</label>
+            <input id="sub-email" name="email" type="email" placeholder="email@example.com" required data-error="Введите корректный email">
+            <p class="form__error"></p>
+          </div>
+          <button class="btn btn--primary" type="submit">Подписаться</button>
+          <p class="form__status" role="status"></p>
+        </form>
+      </div>
+      <div class="container">
+        <p class="site-footer__copy"><small>© <span data-year>2026</span> Company. Все права защищены.</small></p>
+      </div>
+    </footer>
+    <button class="to-top" type="button" aria-label="Наверх" hidden>↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
