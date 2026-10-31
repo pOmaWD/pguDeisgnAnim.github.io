@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная — Company</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="logo" href="index.html">logo</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню"><span></span></button>
+        <nav class="nav" id="nav" aria-label="Основная навигация">
+          <ul class="nav__list">
+            <li><a href="index.html" aria-current="page">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="container split">
+          <div class="hero__text">
+            <p class="eyebrow">Слоган компании</p>
+            <h1>Заголовок главной страницы в одну-две строки</h1>
+            <p class="lead">Короткое описание компании и её предложения. Здесь будет основной текст.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="contacts.html">Связаться</a>
+              <a class="btn btn--outline" href="portfolio.html">Смотреть работы</a>
+            </div>
+          </div>
+          <figure class="hero__media">
+            <img src="img/placeholder-4x3.svg" alt="Placeholder главного изображения" width="800" height="600">
+          </figure>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <header class="section__head">
+            <h2>Преимущества</h2>
+            <p>Короткий подзаголовок раздела.</p>
+          </header>
+          <ul class="cards">
+            <li class="card">
+              <span class="card__icon" aria-hidden="true">icon</span>
+              <h3>Преимущество</h3>
+              <p>Краткое описание преимущества в две-три строки текста.</p>
+            </li>
+            <li class="card">
+              <span class="card__icon" aria-hidden="true">icon</span>
+              <h3>Преимущество</h3>
+              <p>Краткое описание преимущества в две-три строки текста.</p>
+            </li>
+            <li class="card">
+              <span class="card__icon" aria-hidden="true">icon</span>
+              <h3>Преимущество</h3>
+              <p>Краткое описание преимущества в две-три строки текста.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section--alt">
+        <div class="container">
+          <header class="section__head">
+            <h2>Услуги</h2>
+            <p>Короткий подзаголовок раздела.</p>
+          </header>
+          <div class="cards">
+            <article class="card">
+              <figure class="card__media"><img src="img/placeholder-16x9.svg" alt="Placeholder услуги" width="800" height="450" loading="lazy"></figure>
+              <h3>Название услуги</h3>
+              <p>Краткое описание услуги в две-три строки текста.</p>
+              <a class="card__link" href="services.html">Подробнее</a>
+            </article>
+            <article class="card">
+              <figure class="card__media"><img src="img/placeholder-16x9.svg" alt="Placeholder услуги" width="800" height="450" loading="lazy"></figure>
+              <h3>Название услуги</h3>
+              <p>Краткое описание услуги в две-три строки текста.</p>
+              <a class="card__link" href="services.html">Подробнее</a>
+            </article>
+            <article class="card">
+              <figure class="card__media"><img src="img/placeholder-16x9.svg" alt="Placeholder услуги" width="800" height="450" loading="lazy"></figure>
+              <h3>Название услуги</h3>
+              <p>Краткое описание услуги в две-три строки текста.</p>
+              <a class="card__link" href="services.html">Подробнее</a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <ul class="stats">
+            <li class="stat"><strong class="stat__num">120+</strong><span>Проектов</span></li>
+            <li class="stat"><strong class="stat__num">45</strong><span>Клиентов</span></li>
+            <li class="stat"><strong class="stat__num">8</strong><span>Лет на рынке</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section cta">
+        <div class="container cta__inner">
+          <h2>Готовы начать проект?</h2>
+          <p>Короткий призыв к действию в одну-две строки.</p>
+          <a class="btn btn--primary" href="contacts.html">Связаться с нами</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container site-footer__grid">
+        <div class="site-footer__about">
+          <a class="logo" href="index.html">logo</a>
+          <p>Короткое описание компании. Здесь будет текст.</p>
+        </div>
+        <nav aria-label="Навигация в подвале">
+          <h2 class="site-footer__title">Разделы</h2>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2 class="site-footer__title">Контакты</h2>
+          <address>
+            <a href="tel:+70000000000">+7 (000) 000-00-00</a><br>
+            <a href="mailto:hello@example.com">hello@example.com</a>
+          </address>
+        </div>
+      </div>
+      <div class="container">
+        <p class="site-footer__copy"><small>© <span data-year>2026</span> Company. Все права защищены.</small></p>
+      </div>
+    </footer>
+    <button class="to-top" type="button" aria-label="Наверх" hidden>↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>

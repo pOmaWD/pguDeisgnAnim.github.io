@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Услуги — Company</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="logo" href="index.html">logo</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню"><span></span></button>
+        <nav class="nav" id="nav" aria-label="Основная навигация">
+          <ul class="nav__list">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="services.html" aria-current="page">Услуги</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-head">
+        <div class="container">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol>
+              <li><a href="index.html">Главная</a></li>
+              <li>Услуги</li>
+            </ol>
+          </nav>
+          <h1>Услуги</h1>
+          <p class="lead">Короткое описание того, что компания предлагает клиентам.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <header class="section__head">
+            <h2>Что мы делаем</h2>
+          </header>
+          <div class="cards">
+            <article class="card">
+              <h3>Название услуги</h3>
+              <p>Краткое описание услуги в две-три строки текста.</p>
+              <ul class="checklist"><li>Пункт списка</li><li>Пункт списка</li></ul>
+            </article>
+            <article class="card">
+              <h3>Название услуги</h3>
+              <p>Краткое описание услуги в две-три строки текста.</p>
+              <ul class="checklist"><li>Пункт списка</li><li>Пункт списка</li></ul>
+            </article>
+            <article class="card">
+              <h3>Название услуги</h3>
+              <p>Краткое описание услуги в две-три строки текста.</p>
+              <ul class="checklist"><li>Пункт списка</li><li>Пункт списка</li></ul>
+            </article>
+            <article class="card">
+              <h3>Название услуги</h3>
+              <p>Краткое описание услуги в две-три строки текста.</p>
+              <ul class="checklist"><li>Пункт списка</li><li>Пункт списка</li></ul>
+            </article>
+            <article class="card">
+              <h3>Название услуги</h3>
+              <p>Краткое описание услуги в две-три строки текста.</p>
+              <ul class="checklist"><li>Пункт списка</li><li>Пункт списка</li></ul>
+            </article>
+            <article class="card">
+              <h3>Название услуги</h3>
+              <p>Краткое описание услуги в две-три строки текста.</p>
+              <ul class="checklist"><li>Пункт списка</li><li>Пункт списка</li></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section section--alt">
+        <div class="container">
+          <header class="section__head">
+            <h2>Как мы работаем</h2>
+          </header>
+          <ol class="steps">
+            <li class="card"><span class="card__icon" aria-hidden="true">1</span><h3>Заявка</h3><p>Краткое описание шага.</p></li>
+            <li class="card"><span class="card__icon" aria-hidden="true">2</span><h3>Обсуждение</h3><p>Краткое описание шага.</p></li>
+            <li class="card"><span class="card__icon" aria-hidden="true">3</span><h3>Работа</h3><p>Краткое описание шага.</p></li>
+            <li class="card"><span class="card__icon" aria-hidden="true">4</span><h3>Сдача</h3><p>Краткое описание шага.</p></li>
+          </ol>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <header class="section__head">
+            <h2>Тарифы</h2>
+          </header>
+          <div class="table-wrap">
+            <table class="table">
+              <caption>Сравнение тарифов</caption>
+              <thead>
+                <tr><th scope="col">Параметр</th><th scope="col">Базовый</th><th scope="col">Стандарт</th><th scope="col">Профи</th></tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">Цена</th><td>00 000 ₸</td><td>00 000 ₸</td><td>00 000 ₸</td></tr>
+                <tr><th scope="row">Срок</th><td>2 недели</td><td>4 недели</td><td>8 недель</td></tr>
+                <tr><th scope="row">Количество страниц</th><td>до 3</td><td>до 7</td><td>без ограничений</td></tr>
+                <tr><th scope="row">Поддержка</th><td>нет</td><td>1 месяц</td><td>6 месяцев</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <aside class="card note">
+            <h3>Нужна консультация?</h3>
+            <p>Короткий текст о том, как получить помощь с выбором тарифа.</p>
+            <a class="btn btn--outline" href="contacts.html">Связаться</a>
+          </aside>
+        </div>
+      </section>
+      <section class="section section--alt" id="faq">
+        <div class="container container--narrow">
+          <header class="section__head">
+            <h2>Вопросы и ответы</h2>
+          </header>
+          <div class="accordion">
+            <div class="accordion__item">
+              <h3><button class="accordion__btn" type="button" aria-expanded="false" aria-controls="faq-1">Вопрос номер один?</button></h3>
+              <div class="accordion__panel" id="faq-1" hidden><p>Ответ на вопрос. Здесь будет текст в две-три строки.</p></div>
+            </div>
+            <div class="accordion__item">
+              <h3><button class="accordion__btn" type="button" aria-expanded="false" aria-controls="faq-2">Вопрос номер два?</button></h3>
+              <div class="accordion__panel" id="faq-2" hidden><p>Ответ на вопрос. Здесь будет текст в две-три строки.</p></div>
+            </div>
+            <div class="accordion__item">
+              <h3><button class="accordion__btn" type="button" aria-expanded="false" aria-controls="faq-3">Вопрос номер три?</button></h3>
+              <div class="accordion__panel" id="faq-3" hidden><p>Ответ на вопрос. Здесь будет текст в две-три строки.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section cta">
+        <div class="container cta__inner">
+          <h2>Готовы начать проект?</h2>
+          <p>Короткий призыв к действию в одну-две строки.</p>
+          <a class="btn btn--primary" href="contacts.html">Связаться с нами</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container site-footer__grid">
+        <div class="site-footer__about">
+          <a class="logo" href="index.html">logo</a>
+          <p>Короткое описание компании. Здесь будет текст.</p>
+        </div>
+        <nav aria-label="Навигация в подвале">
+          <h2 class="site-footer__title">Разделы</h2>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2 class="site-footer__title">Контакты</h2>
+          <address>
+            <a href="tel:+70000000000">+7 (000) 000-00-00</a><br>
+            <a href="mailto:hello@example.com">hello@example.com</a>
+          </address>
+        </div>
+      </div>
+      <div class="container">
+        <p class="site-footer__copy"><small>© <span data-year>2026</span> Company. Все права защищены.</small></p>
+      </div>
+    </footer>
+    <button class="to-top" type="button" aria-label="Наверх" hidden>↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
